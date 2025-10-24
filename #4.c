@@ -3,7 +3,7 @@
 int main() {
     int power = 1;
 
-    while (power <= 512) {
+    for (int i = 0; power <= 512; i++) {
         printf("%d\n", power);
         power *= 2;  
     }
